@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-rounder",
+    "rating": 9.5,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 120000,
+    "playerImg": "https://i.ibb.co.com/gcfDBMH/vhirat-khoheli.jpg"
+  },
+  {
+    "id": 2,
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 9.8,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 150000,
+    "playerImg": "https://i.ibb.co.com/gcfDBMH/vhirat-khoheli.jpg"
+  },
+  {
+    "id": 3,
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 9.3,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 110000,
+    "playerImg": "https://i.ibb.co.com/gcfDBMH/vhirat-khoheli.jpg"
+  },
+  {
+    "id": 4,
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerType": "All-rounder",
+    "rating": 9.0,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 130000,
+    "playerImg": "https://i.ibb.co.com/gcfDBMH/vhirat-khoheli.jpg"
+  },
+  {
+    "id": 5,
+    "playerName": "Mitchell Starc",
+    "playerCountry": "Australia",
+    "playerType": "Bowler",
+    "rating": 9.1,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast",
+    "price": 125000,
+    "playerImg": "https://i.ibb.co/2k6X0w1/starc.png"
+  },
+  {
+    "id": 6,
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerType": "Wicketkeeper",
+    "rating": 9.4,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 115000,
+    "playerImg": "https://i.ibb.co/0V7Yk0G/buttler.png"
+  }
+]

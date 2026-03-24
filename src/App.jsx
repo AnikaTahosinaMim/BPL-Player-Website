@@ -1,12 +1,29 @@
 import "./App.css";
+import Banner from "./components/Homepage/Banner";
+import Navbar from "./components/Navbar/Navbar";
+import Player from "./components/Homepage/Players/Player";
+import { Suspense } from "react";
+// const fetchData = fetch("/data.json")
+// const fetchData = axios("/public/data.json");
+const playerdata = async () => {
+  const res = await fetch("/data.json");
+  return res.json();
+};
+// console.log(fetchData);
 
 function App() {
+  const playerPromised = playerdata();
   return (
     <>
-      <h2 className="text-2xl text-sky-600">BPL</h2>
-      <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">
-        Responsive
-      </button>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <Suspense
+        fallback={
+          <span className="loading loading-spinner text-success"></span>
+        }
+      >
+        <Player playerPromised={playerPromised}></Player>
+      </Suspense>
     </>
   );
 }
