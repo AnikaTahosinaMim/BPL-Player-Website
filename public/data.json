@@ -7,7 +7,7 @@
     "rating": 9.5,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Slow left-arm orthodox",
-    "price": 1000,
+    "price": 30000,
     "playerImg": "https://i.ibb.co.com/B2NkHvXg/cf-MDBv-Fj-Bp.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 9.3,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 500,
+    "price": 5000,
     "playerImg": "https://i.ibb.co.com/B2NkHvXg/cf-MDBv-Fj-Bp.jpg"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 9.0,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": 3000,
+    "price": 10000,
     "playerImg": "https://i.ibb.co.com/B2NkHvXg/cf-MDBv-Fj-Bp.jpg"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 9.1,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast",
-    "price": 2000,
+    "price": 20000,
     "playerImg": "https://i.ibb.co.com/B2NkHvXg/cf-MDBv-Fj-Bp.jpg"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 9.4,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
-    "price": 1000,
+    "price": 10000,
     "playerImg": "https://i.ibb.co.com/B2NkHvXg/cf-MDBv-Fj-Bp.jpg"
   }
 ]
