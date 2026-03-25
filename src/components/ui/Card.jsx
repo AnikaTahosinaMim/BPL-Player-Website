@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaFlag, FaUser } from "react-icons/fa";
 
-const Card = ({ play }) => {
+const Card = ({ play, setCoin, coin }) => {
+  const [chosePlayers, setChosePlayers] = useState(false);
+  console.log(chosePlayers);
+  console.log(setChosePlayers);
+  console.log(play.price);
+  const handleChoseCoin = () => {
+    setChosePlayers(true);
+    setCoin(coin - play.price);
+  };
   return (
     <div>
       <div className="card bg-base-100 shadow-sm">
@@ -14,7 +22,7 @@ const Card = ({ play }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">
-            <FaUser></FaUser> <h2>{play.playerName}</h2>
+            <FaUser></FaUser> {play.playerName}
           </h2>
           <div className="flex justify-between">
             <div className="flex items-center gap-2">
@@ -35,8 +43,12 @@ const Card = ({ play }) => {
           </div>
           <div className="flex justify-between font-semibold">
             <p>Price: {play.price}</p>
-
-            <button className="btn">Choose Player</button>
+            <button
+              onClick={handleChoseCoin}
+              className={`${chosePlayers === false ? "btn" : "bg-[#E7FE29] p-2 rounded-sm"}`}
+            >
+              {chosePlayers === true ? <h>relected</h> : <h>Choose plyers</h>}
+            </button>
           </div>
         </div>
       </div>

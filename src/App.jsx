@@ -2,7 +2,7 @@ import "./App.css";
 import Banner from "./components/Homepage/Banner";
 import Navbar from "./components/Navbar/Navbar";
 import Player from "./components/Homepage/Players/Player";
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 // const fetchData = fetch("/data.json")
 // const fetchData = axios("/public/data.json");
 const playerdata = async () => {
@@ -13,16 +13,18 @@ const playerdata = async () => {
 
 function App() {
   const playerPromised = playerdata();
+  const [coin, setCoin] = useState(50000);
+  console.log(setCoin, coin);
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar coin={coin}></Navbar>
       <Banner></Banner>
       <Suspense
         fallback={
           <span className="loading loading-spinner text-success"></span>
         }
       >
-        <Player playerPromised={playerPromised}></Player>
+        <Player playerPromised={playerPromised} coin={coin} setCoin={setCoin}></Player>
       </Suspense>
     </>
   );

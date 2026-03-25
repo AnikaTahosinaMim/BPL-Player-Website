@@ -3,7 +3,7 @@ import banner from "../../assets/assets/banner-main.png";
 
 const Banner = () => {
   return (
-    <div className="min-h-[60vh] container mx-auto bg-linear-to-r from-purple-600 to-bottom-purple-400 rounded-2xl">
+    <div className="min-h-[60vh] container mx-auto bg-linear-to-r from-purple-600 to-bottom-purple-500 rounded-2xl">
       <div className="text-center space-y-2 pt-4">
         <img className="flex justify-center mx-auto"  src={banner} alt="" />
         <h3 className="text-4xl font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h3>
