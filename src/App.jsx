@@ -6,7 +6,7 @@ import { Suspense } from "react";
 // const fetchData = fetch("/data.json")
 // const fetchData = axios("/public/data.json");
 const playerdata = async () => {
-  const res = await fetch("/data.json");
+  const res = await fetch("/public/data.json");
   return res.json();
 };
 // console.log(fetchData);
